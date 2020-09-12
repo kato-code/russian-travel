@@ -4,7 +4,6 @@
   align-items: flex-end;
   
   max-width: 1184px;
-  min-height: 52px;
   margin: 0 48px;
 }
 
@@ -25,7 +24,6 @@
 @media screen and (max-width: 320px) {
   .header {
     max-width: 288px;
-    min-height: 42px;
     margin: 0 16px;
   }
 }

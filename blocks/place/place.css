@@ -30,7 +30,18 @@
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 320px) {
+@media screen and (max-width: 649px) and (min-width: 410px) {
+  .place {
+    max-width: 100%;
+
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, minmax(min-content, max-content));
+    gap: 33px;
+
+  }
+}
+
+@media screen and (max-width: 409px) and (min-width: 320px) {
   .place {
     width: 100%;
     margin-bottom: 48px;
@@ -41,6 +52,5 @@
 
   }
 }
-
 
 

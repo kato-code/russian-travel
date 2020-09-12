@@ -11,7 +11,7 @@
   }
 }
 
-@media screen and (max-width: 600px) and (min-width: 320px) {
+@media screen and (max-width: 409px) and (min-width: 320px) {
   .place__website {
     display: none;
   }
